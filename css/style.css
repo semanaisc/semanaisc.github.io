@@ -1,0 +1,61 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Fugaz One', cursive;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: rgba(13, 160, 232, 0.83);
+  position: fixed;
+  top: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin: 0 30px;
+  padding-top: 0px;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor {
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 60px 0;
+}
+
+#intro {
+  color: rgb(230, 217, 197);
+  background-image: url(../img/fondo.jpg);
+}
+
+#intro > img {
+  margin-top: 10px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+#intro > div > a > img {
+  width: 70px;
+  height: 70px;
+  opacity: 0.5;
+}
+
+#contacto {
+  color: rgb(230, 217, 197);
+  background-image: url(../img/contact.jpeg);
+}
+
+#contacto input, #contacto textarea {
+  margin: 5px;
+  width: 80%;
+}
