@@ -32,7 +32,7 @@ nav > ul > li > a:visited {
 }
 
 nav > ul > li > a:hover {
-  color: rgb(45, 64, 232);
+  color: rgb(178, 214, 232);
   text-decoration: none;
 }
 
@@ -84,10 +84,72 @@ main {
   height: 30px;
 }
 
+#apertura {
+  color: rgb(20, 54, 60);
+  background-image: url(../img/fondoCronograma.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#apertura > img {
+  width: 80%;
+  height: 350px;
+}
+
+p {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+#ponencia {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+}
+
+#tituloPonencia {
+  color: rgb(29, 81, 91);
+}
+
 #contacto {
   color: rgb(230, 217, 197);
   background-image: url(../img/contact.jpeg);
 }
+
+#talleres {
+  color: rgb(20, 54, 60);
+  background-image: url(../img/fondoCronograma.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#talleres > table, td, th {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: super;
+  margin-left: 150px;
+}
+
+#talleres > table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#talleres > th, td {
+  padding: 15px;
+}
+#talleres th {
+  background-color: rgba(20, 114, 161, 1);
+  color: rgb(109, 200, 245);
+}
+
+#talleres img {
+  height: 130px;
+  width: 130px;
+  border-radius: 30%;
+}
+
 
 #contacto input, #contacto textarea {
   margin: 5px;
