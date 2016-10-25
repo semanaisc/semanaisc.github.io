@@ -13,6 +13,14 @@
         <ul>
           <li><a href="#cronograma">Cronograma</a></li>
           <li><a href="#talleres">Talleres</a></li>
+          <li><a href="#recreativo">Recreativo</a>
+            <ul>
+              <li><a href="#karaoke">Karaoke</a></li>
+              <li><a href="#deportes">Competiciones deportivas</a></li>
+              <li><a href="#videojuegos">Torneo de VídeoJuegos</a></li>
+              <li><a href="#fiesta">Fiesta de Integración</a></li>
+            </ul>
+          </li>
           <li><a href="#historia">Historia</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
@@ -47,7 +55,7 @@
                   <h2>Torneos Deportivos</h2>
                   <h3>Microfutbol y Voleibol</h3>
                   <h4>Desde 10:00 am</h4>
-                  <a href="#" title="INSCRIBIRSE A UNA COMPETICIÓN" ><img id="moreinfo" src="img/flecha.png"/></a>
+                  <a href="#deportes" title="INSCRIBIRSE A UNA COMPETICIÓN" ><img id="moreinfo" src="img/flecha.png"/></a>
                 </td>
             </tr>
             <tr>
@@ -55,13 +63,13 @@
                 <h2>Gran Karaoke</h2>
                 <h3>Cafeteria del L</h3>
                 <h4>A las 6:30 pm</h4>
-                <a href="#" title="INSCRIBIRSE AL KARAOKE" ><img id="moreinfo" src="img/flecha.png"/></a>
+                <a href="#karaoke" title="INSCRIBIRSE AL KARAOKE" ><img id="moreinfo" src="img/flecha.png"/></a>
               </td>
               <td>
                 <h2>Torneo de VídeoJuegos</h2>
                 <h3>Halo y Fifa 17</h3>
                 <h4>Desde las 2:00 pm</h4>
-                <a href="#" title="INSCRIBIRSE AL TORNEO" ><img id="moreinfo" src="img/flecha.png"/></a>
+                <a href="#videojuegos" title="INSCRIBIRSE AL TORNEO" ><img id="moreinfo" src="img/flecha.png"/></a>
               </td>
             </tr>
             <tr>
@@ -69,7 +77,7 @@
                 <h2>Proyecto DEscCtrl</h2>
                 <h3>Fiesta de Integración en la noche</h3>
                 <h4>PRAGA NIGHT CLUB - La Badea</h4>
-                <a href="#" title="SABER MÁS" ><img id="moreinfo" src="img/flecha.png"/></a>
+                <a href="#fiesta" title="SABER MÁS" ><img id="moreinfo" src="img/flecha.png"/></a>
               </td>
             </tr>
         </table>
@@ -164,12 +172,12 @@
 
             <td rowspan="2">
               Taller                <br>
-              Uniendo Puntos        <br>
-              El camino más corto a <br>
-              Königsberg            <br>
+              Introducción a la     <br>
+              Teoría de Grafos      <br>
               <a href="forms/konigsberg.html"><img src="img/talleres/Konigsberg.jpg"/></a>
               <br>
-              Juegos, Laberintos, Redes Sociales
+              Algunas aplicaciones       <br>
+              en juegos y redes sociales <br>
             </td>
 
             <td rowspan="2">
@@ -246,6 +254,41 @@
         </table>
       </div>
 
+      <div class="contenedor" id="recreativo">
+        <h1>SECCIÓN RECREATIVA</h1>
+￼ ￼ ￼
+        <div class="contenedor" id="karaoke">
+          <h2>Inscribete al Gran Karaoke</h2>
+          <a href="forms/karaoke.html"><img src="img/recreativo/karaoke.png"/></a>
+        </div>
+
+        <div class="contenedor" id="deportes">
+          <h2>Inscribete en la carrera de Observaciones</h2>
+          <h3>Cuatro personas</h3>
+          <a href="forms/observaciones.html"><img src="img/recreativo/carreraobservaciones.png"/></a>
+
+          <br><br><br>
+
+          <h2>Inscribe a tu equipo de micro</h2>
+          <h3>Cinco personas</h3>
+          <a href="forms/micro.html"><img src="img/recreativo/microfutbol.png"/></a>
+
+          <br><br><br>
+
+          <h2>Inscribe a tu equipo de voleibol</h2>
+          <a href="forms/voleibol.html"><img src="img/recreativo/voleibol.png"/></a>
+        </div>
+
+        <div class="contenedor" id="videojuegos">
+          <h2>Inscribete al torneo de Halo CE</h2>
+          <a href="forms/haloce.html"><img src="img/recreativo/halo.png"/></a>
+
+          <br><br><br>
+          <h2>Inscribete al torneo de Fifa</h2>
+          <a href="forms/fifa.html"><img src="img/recreativo/fifa.png"/></a>
+        </div>
+      </div>
+
       <div class="contenedor" id="historia">
         <h1>HISTORIA</h1>
 
@@ -274,7 +317,7 @@
           <br><br>
           <img src="img/historico/carrera3.jpg"/>
           <br><br>
-          <h2>Karoke...</h2>
+          <h2>Karaoke...</h2>
           <img src="img/historico/karaoke.jpg"/>
           <br><br>
           <img src="img/historico/karaoke1.jpg"/>
@@ -289,13 +332,13 @@
 
       <div class="contenedor" id="contacto">
         <h1>Contacto</h1>
-        <input type="text" name="name" value="" placeholder="Nombre">
-        <input type="text" name="name" value="" placeholder="Correo Electronico">
-        <textarea name="name" rows="3" placeholder="Mensaje"></textarea>
+        <p>
+          Si tienes alguna sugerencia, petición, queja, reclamo o felicitación, puedes
+          escribirnos a nuestro perfil de Facebook. Te responderemos lo más deprisa, para
+          darte la mejor experiencia en tu vida universitaria.
+        </p>
 
-        <div>
-          <button type="button" name="button">Enviar</button>
-        </div>
+        <!-- Facebook Badge START --><a href="https://www.facebook.com/comite.impulso.ces" title="Comite Impulso" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP">Comite Impulso</a><span style="font-family: &#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;font-size: 11px;line-height: 16px;font-variant: normal;font-style: normal;font-weight: normal;color: #555555;text-decoration: none;">&nbsp;|&nbsp;</span><a href="https://www.facebook.com/badges/" title="Crea tu propia insignia" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP">Crea tu insignia</a><br /><a href="https://www.facebook.com/comite.impulso.ces" title="Comite Impulso" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/100004001445326.923.1009089461.png" style="border: 0px;" alt="" /></a><!-- Facebook Badge END -->
 
       </div>
 

@@ -21,6 +21,38 @@ nav > ul > li {
   padding-top: 0px;
 }
 
+ul {
+  list-style: none;
+}
+
+nav > ul > li > ul {
+  background-color: rgba(20, 114, 161, 1);
+  text-align: left;
+  padding-top: 30px;
+  display: none;
+  position: absolute;
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+nav > ul > li > ul > li > a:link {
+  color: rgb(109, 200, 245);
+  text-decoration: none;
+}
+
+nav > ul > li > ul > li > a:visited {
+  color: rgb(109, 200, 245);
+  text-decoration: none;
+}
+
+nav > ul > li > ul > li:hover {
+  background-color: rgba(14, 82, 116, 1);
+  color: rgb(109, 200, 245);
+  text-decoration: none;
+}
+
 nav > ul > li > a:link {
   color: rgb(109, 200, 245);
   text-decoration: none;
@@ -139,6 +171,7 @@ p {
 #talleres > th, td {
   padding: 15px;
 }
+
 #talleres th {
   background-color: rgba(20, 114, 161, 1);
   color: rgb(109, 200, 245);
@@ -148,6 +181,23 @@ p {
   height: 130px;
   width: 130px;
   border-radius: 30%;
+}
+
+#recreativo {
+  color: rgb(20, 54, 60);
+  background-image: url(../img/fondoCronograma.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
+#recreativo img {
+  width: 50%;
+  height: 350px;
+}
+
+#recreativo img:hover {
+  opacity: 0.5;
 }
 
 #historia {
@@ -164,10 +214,11 @@ p {
 }
 
 
-
-#contacto input, #contacto textarea {
-  margin: 5px;
-  width: 80%;
+#contacto {
+  color: rgb(20, 54, 60);
+  background-image: url(../img/fondoCronograma.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .myButton {
