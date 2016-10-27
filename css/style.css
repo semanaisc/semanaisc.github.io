@@ -112,8 +112,12 @@ main {
 }
 
 #moreinfo {
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 80%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 #apertura {
@@ -178,8 +182,8 @@ p {
 }
 
 #talleres img {
-  height: 130px;
-  width: 130px;
+  height: 250px;
+  width: 250px;
   border-radius: 30%;
 }
 
