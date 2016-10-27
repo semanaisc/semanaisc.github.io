@@ -204,6 +204,11 @@ p {
   opacity: 0.5;
 }
 
+#fiesta img {
+  width: auto;
+  height: auto;
+}
+
 #historia {
   color: rgb(20, 54, 60);
   background-image: url(../img/fondoCronograma.png);
