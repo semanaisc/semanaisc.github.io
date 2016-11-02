@@ -145,6 +145,8 @@ p {
 }
 
 #tituloPonencia {
+  margin-left: 150px;
+  margin-right: 150px;
   color: rgb(29, 81, 91);
 }
 
