@@ -189,6 +189,10 @@ p {
   border-radius: 30%;
 }
 
+#talleres img:hover {
+  opacity: 0.5;
+}
+
 #recreativo {
   color: rgb(20, 54, 60);
   background-image: url(../img/fondoCronograma.png);
